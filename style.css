@@ -60,6 +60,7 @@
 .equal-sign {
     background-color: #25a8e0;
     border-color: transparent;
+    border-radius: 60px;
     color: #fff;
 }
 
@@ -72,6 +73,7 @@
     justify-content: right;
     color: black;
     font-size: medium;
+    border-radius: 60px;
     width: 40%;
     height: 10%;
     cursor: default;

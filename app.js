@@ -1,12 +1,12 @@
-/*function diplay(val){
+function diplay(val){
 
     document.getElementById('result').value += val
 
     return val;
-}*/
+}
 
 function solve() {
-    let x = document.getElementById('result').value;
+    let x = document.getElementById('result').addEventListener ("click", ) ;
     let y = eval(x);
 
     document.getElementById('result').value = y;
@@ -17,7 +17,7 @@ function clearScreen(){
     document.getElementById('result').value = '';
 }
 
-let currentDisplay = "0"; 
+/*let currentDisplay = "0"; 
 let resultDisplay = false; 
 
 function display(value) {
@@ -36,4 +36,4 @@ function display(value) {
 function updateDisplay() {
     const displayElement = document.getElementById("display");
     displayElement.textContent = currentDisplay;
-  }
+  }*/
