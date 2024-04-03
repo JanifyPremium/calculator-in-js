@@ -6,8 +6,6 @@
         <script src="C:\Users\JanaPlatz\Documents\GitHub\Taschenrechner js\app.js" ></script>
         <link rel="stylesheet" href="style.css"></link>
     </head>
-        <title> Calculator </title>
-    </head>
 <body>
     <div class="calculator">
         <h1 style="text-align: center;">Calculator</h1>
@@ -16,9 +14,7 @@
             <tabel>
                 <tr>
                     <td colspan="3"><input type="text" id='result' class ='screen' style="text-align: right;"></td>
-                    <td>
-                    <input type='button' value = 'C' onclick="clearScreen()" class="clear"/>
-                    </td>
+                    <td align="right"><input type='button' value = 'C' onclick="clearScreen()" class="clear"/></td>
                 </tr>
             </tabel>
                 <div class="keys">
@@ -38,6 +34,7 @@
                     <input type="button" value="." class="button" onclick="display('.')"></input>
                     <input type="button" value= "=" class="button equal-sign" onclick="solve()"></input>        
                     <input type="button" value="+" class="operator" onclick="display('+')"></input>
-		</div> <!---->
+		</div> 
+        
 </body>
 </html>
