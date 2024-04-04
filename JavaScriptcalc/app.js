@@ -5,7 +5,6 @@ button.addEventListener('click', function diplay(num){
     let a = button.value += num
 
     return num;
-    console.log(num)
 });
 
 button.addEventListener('click',function solve() {
